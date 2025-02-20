@@ -356,40 +356,6 @@ br.double {
   background-image: linear-gradient(-90deg,var(--backCol),#1c1c1c00);
 }
 
-
-
-/* slideshow.cards.forEach(card => {
-  if (card.linknum == n) {
-      let descContainer = document.createElement("div")
-      if (card.title != null) {
-          let cardTitle = document.createElement("h3")
-          cardTitle.classList.add("CardTitle")
-          cardTitle.textContent = card.title
-          descContainer.appendChild(cardTitle)
-      }
-      if (card.description != null) {
-          let cardDesc = document.createElement("p")
-          cardDesc.classList.add("CardDesc")
-          cardDesc.textContent = card.description
-          descContainer.appendChild(cardDesc)
-      }
-      thisImage.appendChild(descContainer)
-  }
-}) */
-
-
-/* .Slide {
-  padding: var(--generalMargin);
-  background-color: #3b3b3b;
-  outline: solid 1px #fff6;
-  border-radius: 3vw;
-  box-shadow: 10px 10px 5px #000000;
-  transition: opacity 0.25s;
-  position: relative;
-} */
-
-
-
 .slideCard {
   color: #0000; 
   text-shadow: #00000000 0 0 0px;
