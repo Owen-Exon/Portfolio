@@ -125,7 +125,7 @@ page_data = [
             {
                 key: "img",
                 style: "width:99%; margin-bottom:0.5vw; border-radius:1vw; outline: solid 1px #fff6;",
-                src: "content/hammers/main.jpg",
+                src: "content/Hammers/main.jpg",
             },
         ],
     },
