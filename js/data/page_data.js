@@ -574,7 +574,29 @@ page_data = [
     
         cardImage: "Card.jpg",
         date: "Febuarary 2025",
-    }
+    },
+
+    { //tradecoin
+        pageID: "tradecoin",
+        title: "William Exon's Trade Coin",
+        description:
+            'My Dad was researching our family history and found that one of our ancestors was a tradesperson at a time where there was no set currency, so everyone had their own coins. We managed to find out was his looked like so I decided to cast one.<br>Image Source: <a href="https://www.britishmuseum.org/collection/object/C_1915-0605-22" target="_blank" rel="noopener noreferrer">The British Museum</a>',
+
+        slideshows: [
+            {
+                images: [
+                    "IMG-20241128-WA0057.jpg",
+                    "IMG_1136.jpg",
+                    "IMG_1135.jpg",
+                    "IMG_1134.jpg",
+                    "IMG_1132.jpg"
+                ],
+            },
+        ],
+
+        cardImage: "IMG_1130.jpg",
+        date: "January 2023",
+    },
 ];
 
 // Woodturning?
@@ -745,27 +767,4 @@ template = {
     cardImage: "IMG_0012.jpg",
     date: "Unknown",
 },
-
-    { //tradecoin
-        pageID: "tradecoin",
-        title: "William Exon's Trade Coin",
-        description:
-            'My Dad was researching our family history and found that one of our ancestors was a tradesperson at a time where there was no set currency, so everyone had their own coins. We managed to find out was his looked like so I decided to cast one.<br>Image Source: <a href="https://www.britishmuseum.org/collection/object/C_1915-0605-22" target="_blank" rel="noopener noreferrer">The British Museum</a>',
-
-        slideshows: [
-            {
-                images: [
-                    "IMG-20241128-WA0057.jpg",
-                    "IMG_1136.jpg",
-                    "IMG_1135.jpg",
-                    "IMG_1134.jpg",
-                    "IMG_1132.jpg"
-                ],
-            },
-        ],
-
-        cardImage: "IMG_1130.jpg",
-        date: "Unknown",
-    },
-
 */
