@@ -136,7 +136,7 @@ br.double {
   display: flex;
   justify-content:center;
   align-items: center;
-  column-gap: 10px;
+  column-gap: 5px;
 }
 
 .email-link {
@@ -144,7 +144,7 @@ br.double {
 }
 
 .email-logo {
-  height: 1.65em;
+  height: 1.25em;
 }
 /*================================================== END OF Email ==================================================*/
 

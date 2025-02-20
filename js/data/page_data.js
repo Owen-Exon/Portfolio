@@ -1,24 +1,4 @@
 page_data = [
-    { //3dAdventCalendar
-        pageID: "3dAdventCalendar",
-        title: "Advent Calendar",
-        
-        description: 'This was an advent calendar I made for my mum. Each day she would get one square, so she had to slowly build it up like a jigsaw.',
-        
-        slideshows: [
-            {
-                images: [
-                    "IMG_0009.jpg",
-                    "IMG_0010.jpg",
-                    "IMG_0012.jpg"
-                ],
-            },
-        ],
-
-        cardImage: "IMG_0012.jpg",
-        date: "",
-    },
-
     { //ambicoaster
         pageID: "AmbiCoaster",
         title: "Ambigramic Coaster",
@@ -61,52 +41,6 @@ page_data = [
         ],
 
         cardImage: "IMG_1042.jpg",
-        date: "",
-    },
-
-    { //ammonite
-        
-        pageID: "Ammonite",
-        title: "Ammonite",
-        description: 
-            `This was I Mother\'s Day gift I made as my mum loves fossils and ammonites specificity.<br>
-            Model Source: <a href="https://www.thingiverse.com/thing:637263" target="_blank" rel="noopener noreferrer">Thingiverse</a>`,
-
-        slideshows: [
-            {
-                images: [
-                    "IMG_1469.jpg",
-                    "GFOA0225.jpg",
-                    "CCCD1761.jpg"
-                ],
-            },
-        ],
-
-        cardImage: "card.jpg",
-        date: "",
-    },
-
-    { //chesslock
-        pageID: "ChessLock",
-        title: "Chess Lock",
-        description:
-            "This was an unfinished design for a portable chessboard where the pieces can lock into the base when not being used. This was to allow the game to be paused at any point without ending it. This is a project I would love to eventually come back to.",
-
-        slideshows: [
-            {
-                images: [
-                    "IMG_1146.jpg",
-                    "IMG_1147.jpg",
-                    "IMG_1148.jpg",
-                    "IMG_1149.jpg",
-                    "IMG_1150.jpg",
-                    "IMG_1151.jpg",
-                    "IMG_1152.jpg",
-                ],
-            },
-        ],
-
-        cardImage: "card.jpg",
         date: "",
     },
 
@@ -211,29 +145,6 @@ page_data = [
         ],
 
         cardImage: "IMG_1665.jpg",
-        date: "",
-    },
-
-    { //loomroom
-        pageID: "LoomRoom",
-        title: "Loom Room Sign",
-        
-        description: "One of my Relatives is a weaver and has a room dedicated to the craft. He also lives in Wales and is learning Welsh, so I decided to make him a sign for his birthday with the same text repeated in English and Welsh.",
-        
-        slideshows: [
-            {
-                images: [
-                    "UWGN5904.jpg",
-                    "NBFF0797.jpg",
-                    "IMG_0889.jpg",
-                    "IMG_0898.jpg",
-                    "IMG_0912.jpg",
-                    "IMG_0913.jpg",
-                ],
-            },
-        ],
-
-        cardImage: "card.jpg",
         date: "",
     },
 
@@ -439,38 +350,6 @@ page_data = [
         date: "",
     },
 
-    { //Christmas Card: 2023
-        pageID: "card2023",
-        title: "Christmas Card 2023",
-        description:
-            "These were the christmas Cards I gave to people in 2023.",
-
-        slideshows: [
-            {
-                images: ["front.jpg", "top.jpg"],
-            },
-        ],
-
-        cardImage: "front-sq.jpg",
-        date: "",
-    },
-
-    { //Folded Dice Tray
-        pageID: "FoldedDiceTray",
-        title: "Folded Dice Tray",
-        description:
-            'This was a pair of dice trays for D&D, the square one is larger for the DM, so they can roll all the dice they need to, and the hexagon ones were gifts from the people in my groups.<br> Logo Sources: <a href="https://www.reddit.com/r/DnD/comments/yoqfb6/oc_one_line_dd_logo/" target="_blank" rel="noopener noreferrer">Reddit</a>',
-
-        slideshows: [
-            {
-                images: ["IMG_2191.jpg", "IMG_2192.jpg"],
-            },
-        ],
-
-        cardImage: "IMG_2191.jpg",
-        date: "",
-    },
-
     { //Day of The Dead Skull
         pageID: "dotdCalavera",
         title: "Day of the Dead Calavera",
@@ -613,7 +492,7 @@ page_data = [
     //     date: "",
     // },
     
-    { //BOSCHWorkExperiance ---> Racking on Line
+    { //BOSCHWorkExperiance
         pageID: "BOSCHWorkExperiance",
         title: "Work Experience at Worcester BOSCH",
         description: 'Below are the highlights of the things I worked on during my two weeks work experience at worcester BOSCH.<br>Click <a href="content/BOSCHWorkExperiance/OEWorkExperiancePresentation.pdf" target="_blank" rel="noopener noreferrer">Here</a> for the presentation I gave to the team about what I\'d worked on.<br>And <a href="content/BOSCHWorkExperiance/C4000MAPLRackAssembly.pdf" target="_blank" rel="noopener noreferrer">Here</a> for drawings of the Racking.',
@@ -694,25 +573,6 @@ page_data = [
         date: "",
     },
 
-    // { //ElementTower
-    //     pageID: "ElementTower",
-    //     title: "Element Tower",
-    //     description: "This is based on the periodic table, and eventually I would like to try create a version of the full table.",
-    
-    //     slideshows: [
-    //         {
-    //             images: [
-    //                 "IMG_20241130_115552792.jpg",
-    //                 "IMG_20241130_115607243.jpg",
-    //                 "IMG_20241130_120027572.jpg",
-    //                 "IMG_20241130_120019931.jpg"
-    //             ],
-    //         },
-    //     ],
-    
-    //     cardImage: "Card.jpg",
-    //     date: "",
-    // }
 ];
 
 // Woodturning?
@@ -739,3 +599,148 @@ template = {
         },
     ],
 }
+
+
+// ------------------ Excluded
+/*
+{ //ammonite
+    
+    pageID: "Ammonite",
+    title: "Ammonite",
+    description: 
+        `This was I Mother\'s Day gift I made as my mum loves fossils and ammonites specificity.<br>
+        Model Source: <a href="https://www.thingiverse.com/thing:637263" target="_blank" rel="noopener noreferrer">Thingiverse</a>`,
+
+    slideshows: [
+        {
+            images: [
+                "IMG_1469.jpg",
+                "GFOA0225.jpg",
+                "CCCD1761.jpg"
+            ],
+        },
+    ],
+
+    cardImage: "card.jpg",
+    date: "",
+},
+
+{ //chesslock
+    pageID: "ChessLock",
+    title: "Chess Lock",
+    description:
+        "This was an unfinished design for a portable chessboard where the pieces can lock into the base when not being used. This was to allow the game to be paused at any point without ending it. This is a project I would love to eventually come back to.",
+
+    slideshows: [
+        {
+            images: [
+                "IMG_1146.jpg",
+                "IMG_1147.jpg",
+                "IMG_1148.jpg",
+                "IMG_1149.jpg",
+                "IMG_1150.jpg",
+                "IMG_1151.jpg",
+                "IMG_1152.jpg",
+            ],
+        },
+    ],
+
+    cardImage: "card.jpg",
+    date: "",
+},
+
+{ //ElementTower
+    pageID: "ElementTower",
+    title: "Element Tower",
+    description: "This is based on the periodic table, and eventually I would like to try create a version of the full table.",
+
+    slideshows: [
+        {
+            images: [
+                "IMG_20241130_115552792.jpg",
+                "IMG_20241130_115607243.jpg",
+                "IMG_20241130_120027572.jpg",
+                "IMG_20241130_120019931.jpg"
+            ],
+        },
+    ],
+
+    cardImage: "Card.jpg",
+    date: "",
+}
+
+{ //Folded Dice Tray
+    pageID: "FoldedDiceTray",
+    title: "Folded Dice Tray",
+    description:
+        'This was a pair of dice trays for D&D, the square one is larger for the DM, so they can roll all the dice they need to, and the hexagon ones were gifts from the people in my groups.<br> Logo Sources: <a href="https://www.reddit.com/r/DnD/comments/yoqfb6/oc_one_line_dd_logo/" target="_blank" rel="noopener noreferrer">Reddit</a>',
+
+    slideshows: [
+        {
+            images: ["IMG_2191.jpg", "IMG_2192.jpg"],
+        },
+    ],
+
+    cardImage: "IMG_2191.jpg",
+    date: "",
+},
+
+{ //Christmas Card: 2023
+    pageID: "card2023",
+    title: "Christmas Card 2023",
+    description:
+        "These were the christmas Cards I gave to people in 2023.",
+
+    slideshows: [
+        {
+            images: ["front.jpg", "top.jpg"],
+        },
+    ],
+
+    cardImage: "front-sq.jpg",
+    date: "",
+},
+
+{ //loomroom
+    pageID: "LoomRoom",
+    title: "Loom Room Sign",
+    
+    description: "One of my Relatives is a weaver and has a room dedicated to the craft. He also lives in Wales and is learning Welsh, so I decided to make him a sign for his birthday with the same text repeated in English and Welsh.",
+    
+    slideshows: [
+        {
+            images: [
+                "UWGN5904.jpg",
+                "NBFF0797.jpg",
+                "IMG_0889.jpg",
+                "IMG_0898.jpg",
+                "IMG_0912.jpg",
+                "IMG_0913.jpg",
+            ],
+        },
+    ],
+
+    cardImage: "card.jpg",
+    date: "",
+},
+
+{ //3dAdventCalendar
+    pageID: "3dAdventCalendar",
+    title: "Advent Calendar",
+    
+    description: 'This was an advent calendar I made for my mum. Each day she would get one square, so she had to slowly build it up like a jigsaw.',
+    
+    slideshows: [
+        {
+            images: [
+                "IMG_0009.jpg",
+                "IMG_0010.jpg",
+                "IMG_0012.jpg"
+            ],
+        },
+    ],
+
+    cardImage: "IMG_0012.jpg",
+    date: "",
+},
+*/
