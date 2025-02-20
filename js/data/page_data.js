@@ -493,7 +493,7 @@ page_data = [
         ],
     
         cardImage: "RackingCad.jpg",
-        date: "November 2023 and August 2024",
+        date: "August 2024",
     },
     
     { //ModelClock
@@ -555,6 +555,26 @@ page_data = [
         date: "June 2024",
     },
 
+    { //HowellsWorkExperiance
+        pageID: "HowellsWorkExperiance",
+        title: "Work Experiance at Howells",
+        description: 'Below are the renders of the project I worked on during my week long work experience at Howells architects.<br>Click <a href="content/HowellsWorkExperiance/Presentation.pdf" target="_blank" rel="noopener noreferrer">Here</a> for the presentation I gave to a handfull of people in the office about how I\'d fulfilled the brief they\'d given me',
+        slideshows: [
+            {
+                images: [
+                    "Render1.jpg",
+                    "Render2.jpg",
+                    "Render3.jpg",
+                    "Render4.jpg",
+                    "Render5.jpg",
+                    "Render6.jpg"
+                ],
+            },
+        ],
+    
+        cardImage: "Card.jpg",
+        date: "Febuarary 2025",
+    }
 ];
 
 // Woodturning?
