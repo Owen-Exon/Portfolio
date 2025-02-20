@@ -41,7 +41,7 @@ page_data = [
         ],
 
         cardImage: "IMG_1042.jpg",
-        date: "",
+        date: "October - December 2022",
     },
 
     { //deptLogo
@@ -96,7 +96,7 @@ page_data = [
         ],
 
         cardImage: "zschoolLogo.jpg",
-        date: "",
+        date: "July - Septempber 2023",
     },
 
     { //hammers
@@ -119,7 +119,7 @@ page_data = [
         ],
 
         cardImage: "main-sq.jpg",
-        date: "",
+        date: "March - April 2023",
 
         addhtml: [
             {
@@ -166,7 +166,7 @@ page_data = [
         ],
 
         cardImage: "Owen.jpg",
-        date: "",
+        date: "Various",
     },
 
     { //nutbolttree
@@ -188,7 +188,7 @@ page_data = [
         ],
 
         cardImage: "IMG_1097.jpg",
-        date: "",
+        date: "December 2022",
     },
 
     { //Rose
@@ -217,7 +217,7 @@ page_data = [
         ],
 
         cardImage: "CompLow.jpg",
-        date: "",
+        date: "January 2023",
     },
 
     { //shopsign
@@ -260,29 +260,7 @@ page_data = [
         ],
 
         cardImage: "card.jpg",
-        date: "",
-    },
-
-    { //tradecoin
-        pageID: "tradecoin",
-        title: "William Exon's Trade Coin",
-        description:
-            'My Dad was researching our family history and found that one of our ancestors was a tradesperson at a time where there was no set currency, so everyone had their own coins. We managed to find out was his looked like so I decided to cast one.<br>Image Source: <a href="https://www.britishmuseum.org/collection/object/C_1915-0605-22" target="_blank" rel="noopener noreferrer">The British Museum</a>',
-
-        slideshows: [
-            {
-                images: [
-                    "IMG-20241128-WA0057.jpg",
-                    "IMG_1136.jpg",
-                    "IMG_1135.jpg",
-                    "IMG_1134.jpg",
-                    "IMG_1132.jpg"
-                ],
-            },
-        ],
-
-        cardImage: "IMG_1130.jpg",
-        date: "",
+        date: "October 2022 - January 2023",
     },
 
     { //vinylspeaker
@@ -304,7 +282,7 @@ page_data = [
         ],
 
         cardImage: "20230209_174149COL.jpg",
-        date: "",
+        date: "October - November 2022",
     },
 
     { //whistlestand
@@ -347,7 +325,7 @@ page_data = [
         ],
 
         cardImage: "IMG_1360.jpg",
-        date: "",
+        date: "January 2023",
     },
 
     { //Day of The Dead Skull
@@ -380,7 +358,7 @@ page_data = [
         ],
 
         cardImage: "IMG_2792.jpg",
-        date: "",
+        date: "October 2023",
     },
 
     { //WeddingPendants
@@ -399,10 +377,10 @@ page_data = [
         ],
 
         cardImage: "IMG_2137.jpg",
-        date: "",
+        date: "September 2023",
     },
 
-    { // GCSEDTNEA
+    { //GCSEDTNEA
         
         pageID: "GCSEDTNEA",
         title: "GCSE DT NEA",
@@ -431,10 +409,10 @@ page_data = [
         ],
 
         cardImage: "EXRX5896.jpg",
-        date: "",
+        date: "July 2023 - April 2024",
     },
 
-    { // EPAnniversaryGift
+    { //EPAnniversaryGift
         pageID: "EPAnniversaryGift",
         title: "1-Year Anniversary Gift",
         description: "Two family members were having a one year anniversary party so I decided to make them a gift based around paper because that is the traditional material for a one year anniversary.",
@@ -453,10 +431,10 @@ page_data = [
         ],
     
         cardImage: "Card.jpg",
-        date: "",
+        date: "Septempber 2024",
     },
 
-    { // WirelessPickupBox
+    { //WirelessPickupBox
         pageID: "WirelessPickupBox",
         title: "Wireless Pickup Box",
         description: "One of the people in the same folk band as me asked if I could make a box to hold a wireless pickup they had. The lids hold the two halves together but they can also be stored separately.",
@@ -473,10 +451,10 @@ page_data = [
         ],
     
         cardImage: "Card.jpg",
-        date: "",
+        date: "April 2024",
     },
 
-    { //IndiaExchangeGift ---> Waiting On Images
+    { //IndiaExchangeGift
         pageID: "IndiaExchangeGift",
         title: "India Partnership Gift",
         description: "My school has a partnership with the Ramjas International School in india. As part of this partnership they do an exchange program and I went on the twenty year anniversary of their partnership. So me and the head of the DT department collaborated to make a gift for them.",
@@ -747,4 +725,27 @@ template = {
     cardImage: "IMG_0012.jpg",
     date: "",
 },
+
+    { //tradecoin
+        pageID: "tradecoin",
+        title: "William Exon's Trade Coin",
+        description:
+            'My Dad was researching our family history and found that one of our ancestors was a tradesperson at a time where there was no set currency, so everyone had their own coins. We managed to find out was his looked like so I decided to cast one.<br>Image Source: <a href="https://www.britishmuseum.org/collection/object/C_1915-0605-22" target="_blank" rel="noopener noreferrer">The British Museum</a>',
+
+        slideshows: [
+            {
+                images: [
+                    "IMG-20241128-WA0057.jpg",
+                    "IMG_1136.jpg",
+                    "IMG_1135.jpg",
+                    "IMG_1134.jpg",
+                    "IMG_1132.jpg"
+                ],
+            },
+        ],
+
+        cardImage: "IMG_1130.jpg",
+        date: "",
+    },
+
 */
