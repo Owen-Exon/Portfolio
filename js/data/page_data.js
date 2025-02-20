@@ -145,7 +145,7 @@ page_data = [
         ],
 
         cardImage: "IMG_1665.jpg",
-        date: "",
+        date: "May 2023",
     },
 
     { //makersmarks
@@ -514,7 +514,7 @@ page_data = [
         ],
     
         cardImage: "ClockSq.jpg",
-        date: "",
+        date: "September - October 2024",
     },
 
     { //InventorPractice
@@ -534,7 +534,7 @@ page_data = [
         ],
     
         cardImage: "Table.jpg",
-        date: "",
+        date: "Various",
     },
 
     { //WireTree
@@ -552,7 +552,7 @@ page_data = [
         ],
     
         cardImage: "Card.jpg",
-        date: "",
+        date: "June 2024",
     },
 
 ];
@@ -604,7 +604,7 @@ template = {
     ],
 
     cardImage: "card.jpg",
-    date: "",
+    date: "Unknown",
 },
 
 { //chesslock
@@ -628,7 +628,7 @@ template = {
     ],
 
     cardImage: "card.jpg",
-    date: "",
+    date: "Unknown",
 },
 
 { //ElementTower
@@ -648,7 +648,7 @@ template = {
     ],
 
     cardImage: "Card.jpg",
-    date: "",
+    date: "Unknown",
 }
 
 { //Folded Dice Tray
@@ -664,7 +664,7 @@ template = {
     ],
 
     cardImage: "IMG_2191.jpg",
-    date: "",
+    date: "Unknown",
 },
 
 { //Christmas Card: 2023
@@ -680,7 +680,7 @@ template = {
     ],
 
     cardImage: "front-sq.jpg",
-    date: "",
+    date: "Unknown",
 },
 
 { //loomroom
@@ -703,7 +703,7 @@ template = {
     ],
 
     cardImage: "card.jpg",
-    date: "",
+    date: "Unknown",
 },
 
 { //3dAdventCalendar
@@ -723,7 +723,7 @@ template = {
     ],
 
     cardImage: "IMG_0012.jpg",
-    date: "",
+    date: "Unknown",
 },
 
     { //tradecoin
@@ -745,7 +745,7 @@ template = {
         ],
 
         cardImage: "IMG_1130.jpg",
-        date: "",
+        date: "Unknown",
     },
 
 */
