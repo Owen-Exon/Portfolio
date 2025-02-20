@@ -272,11 +272,11 @@ page_data = [
         slideshows: [
             {
                 images: [
+                    "IMG-20241128-WA0057.jpg",
                     "IMG_1136.jpg",
                     "IMG_1135.jpg",
                     "IMG_1134.jpg",
-                    "IMG_1132.jpg",
-                    "IMG-20241128-WA0057.jpg"
+                    "IMG_1132.jpg"
                 ],
             },
         ],
@@ -402,7 +402,7 @@ page_data = [
         date: "",
     },
 
-    { // GCSE nea
+    { // GCSEDTNEA
         
         pageID: "GCSEDTNEA",
         title: "GCSE DT NEA",
@@ -476,21 +476,25 @@ page_data = [
         date: "",
     },
 
-    // { //IndiaExchangeGift ---> Waiting On Images
-    //     pageID: "IndiaExchangeGift",
-    //     title: "India Partnership Gift",
-    //     description: "My school has a partnership with the Ramjas International School in india. As part of this partnership they do an exchange program and I went on the twenty year anniversary of their partnership. So me and the head of the DT department collaborated to make a gift for them.",
+    { //IndiaExchangeGift ---> Waiting On Images
+        pageID: "IndiaExchangeGift",
+        title: "India Partnership Gift",
+        description: "My school has a partnership with the Ramjas International School in india. As part of this partnership they do an exchange program and I went on the twenty year anniversary of their partnership. So me and the head of the DT department collaborated to make a gift for them.",
     
-    //     slideshows: [
-    //         {
-    //             showTitle: "",
-    //             images: [""],
-    //         },
-    //     ],
+        slideshows: [
+            {
+                images: [
+                    "DroitwichSide.jpg", 
+                    "RamjasSide.jpg", 
+                    "DroitwichClose.jpg",
+                    "RamjasClose.jpg",
+                ],
+            },
+        ],
     
-    //     cardImage: "",
-    //     date: "",
-    // },
+        cardImage: "RamjasSide.jpg",
+        date: "October 2024",
+    },
     
     { //BOSCHWorkExperiance
         pageID: "BOSCHWorkExperiance",
@@ -511,7 +515,7 @@ page_data = [
         ],
     
         cardImage: "RackingCad.jpg",
-        date: "",
+        date: "November 2023 and August 2024",
     },
     
     { //ModelClock
