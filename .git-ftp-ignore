@@ -1,0 +1,8 @@
+.gitignore
+.hintrc
+.vscode/*
+.git-ftp-ignore
+*/.gitignore      # ignore files in sub directories
+*/.gitkeep
+.git-ftp-include
+.gitlab-ci.yml
