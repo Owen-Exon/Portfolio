@@ -581,29 +581,28 @@ page_data = [
     },
 
     { // IndustrialCadetsGold
-    pageID: "IndustrialCadetsGold",
-    title: "Industrial Cadets Gold",
-    description: 'During year 12, I participated in Industrial Cadets Gold with two of my friends. We had a mentor from worcester BOSCH (who I had met through previous work experiance) and the aim of our project was to try to find a solution to the tangled clips used to hold components together on one of their assembly lines.<br>Below are links to the specification we were given, as well as our report and the slides from our presentation.<br><a href="content/IndustrialCadetsGold/IndustrialCadetsTechnicalSpecification.pdf" target="_blank" rel="noopener noreferrer">Specification</a><br><a href="content/IndustrialCadetsGold/FinalReport.pdf" target="_blank" rel="noopener noreferrer">Report</a><br><a href="content/IndustrialCadetsGold/ProjectPresentation.pdf" target="_blank" rel="noopener noreferrer">Presentation</a>',
+        pageID: "IndustrialCadetsGold",
+        title: "Industrial Cadets Gold",
+        description: 'During year 12, I participated in Industrial Cadets Gold with two of my friends. We had a mentor from worcester BOSCH (who I had met through previous work experiance) and the aim of our project was to try to find a solution to the tangled clips used to hold components together on one of their assembly lines.<br>Below are links to the specification we were given, as well as our report and the slides from our presentation.<br><a href="content/IndustrialCadetsGold/IndustrialCadetsTechnicalSpecification.pdf" target="_blank" rel="noopener noreferrer">Specification</a><br><a href="content/IndustrialCadetsGold/FinalReport.pdf" target="_blank" rel="noopener noreferrer">Report</a><br><a href="content/IndustrialCadetsGold/ProjectPresentation.pdf" target="_blank" rel="noopener noreferrer">Presentation</a>',
 
-    slideshows: [
-        {
-            showTitle: "Context",
-            images: ["Bunch.jpg","Bin.jpg","Line.jpg","TheTeam.jpg"],
-        },
-        {
-            showTitle: "Developing",
-            images: ["TestRig.jpg","Matrix.jpg","Video.jpg","Graph.jpg","CornerDrawing.jpg"],
-        },
-        {
-            showTitle: "Final Prototype",
-            images: ["Side.jpg","MessPrototype.jpg","PrototypeSignal.jpg"],
-        },
-    ],
+        slideshows: [
+            {
+                showTitle: "Context",
+                images: ["Bunch.jpg","Bin.jpg","Line.jpg","TheTeam.jpg"],
+            },
+            {
+                showTitle: "Developing",
+                images: ["TestRig.jpg","Matrix.jpg","Video.jpg","Graph.jpg","CornerDrawing.jpg"],
+            },
+            {
+                showTitle: "Final Prototype",
+                images: ["Side.jpg","MessPrototype.jpg","PrototypeSignal.jpg"],
+            },
+        ],
 
-    cardImage: "PrototypeSq.jpg",
-    date: "November 2024 - April 2025",
-}
-
+        cardImage: "PrototypeSq.jpg",
+        date: "November 2024 - April 2025",
+    },
 ];
 
 // Woodturning?
