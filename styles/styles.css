@@ -1,12 +1,10 @@
 html {scroll-behavior: smooth;}
 
 body, html {overflow-x:hidden;}
-
 * {
-  font-weight: 700;
-  line-height: 1.5em;
+  font-weight: 400;
+  font-optical-sizing: auto;
 }
-
 :root {
   --backCol: #141414; 
   --textCol : #eee;
@@ -14,7 +12,9 @@ body, html {overflow-x:hidden;}
   --generalMargin : 1vw;
   margin: 0;
   color-scheme: dark;
-  font-family:Satoshi,sans-serif;
+  font-family: "Source Serif 4", serif;
+  font-style: normal;
+  font-size: 18px;
 }
 
 body {
@@ -36,7 +36,7 @@ h1::after, h3::after {
   position: absolute;
   background-image: linear-gradient(90deg ,#0000,#ffff,#0000);
   left: -10px;
-  bottom: 3px;
+  bottom: 8px;
   right: -10px;
   height: 1px;
   content: "";
@@ -44,11 +44,11 @@ h1::after, h3::after {
 
 h1, h2, p, a {
   margin: 0;
-  margin-bottom: var(--textLineSpace);
+  margin-bottom: calc(var(--generalMargin)/2);
 }
 
 .SlideshowTitle {
-  margin-bottom: var(--generalMargin);
+  margin-bottom: calc(var(--generalMargin)/2);
 }
 
 h1 {
@@ -113,7 +113,7 @@ a:not(.afterexeption):after {
 
 #ProjectDesc, .greeting-text {
   background-color: #3b3b3b;
-  padding: 20px;
+  padding: 20px;  
   border-radius: 20px;
   box-shadow: inset 0 00px 10px #000000;
   outline: solid 1px #fff6;
