@@ -130,24 +130,6 @@ page_data = [
         ],
     },
 
-    { //leafcoaster
-        pageID: "LeafCoaster",
-        title: "Leaf Coaster",
-        description: "A small coaster made for a family members birthday.",
-
-        slideshows: [
-            {
-                images: [
-                    "old.jpg",
-                    "IMG_1665.jpg"
-                ],
-            },
-        ],
-
-        cardImage: "IMG_1665.jpg",
-        date: "May 2023",
-    },
-
     { //makersmarks
         pageID: "makersMarks",
         title: "Makers Marks",
@@ -791,5 +773,23 @@ template = {
 
     cardImage: "IMG_0012.jpg",
     date: "Unknown",
+},
+
+{ //leafcoaster
+    pageID: "LeafCoaster",
+    title: "Leaf Coaster",
+    description: "A small coaster made for a family members birthday.",
+
+    slideshows: [
+        {
+            images: [
+                "old.jpg",
+                "IMG_1665.jpg"
+            ],
+        },
+    ],
+
+    cardImage: "IMG_1665.jpg",
+    date: "May 2023",
 },
 */
