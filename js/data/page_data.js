@@ -206,7 +206,7 @@ page_data = [
         pageID: "ShopSign",
         title: "DSHS Shop Sign",
         description:
-            'This was a submission to a competition to design a sign for the school shop. It won and I was then commissioned to make it. This was one of the longest projects I\'ve worked on, and one of my favourites.',
+            'This was a submission to a competition to design a sign for the school shop. It won and I was then commissioned to make it. This was one of the longest projects I\'d worked on at the time, and one of my favourites.',
 
         slideshows: [
             {
@@ -249,7 +249,7 @@ page_data = [
         pageID: "vinylspeaker",
         title: "Vinyl Speaker",
         description:
-            'This was an idea based on Paul Cocksedge\'s <a  href="https://www.paulcocksedgestudio.com/shop/p/changetherecord" target="_blank" rel="noopener noreferrer">Change the Record</a> I had an old bluetooth speaker that I mounted inside and it made it sound much better.',
+            'I had an old bluetooth speaker and I wanted to try extend its life. So I created this object inspired by Paul Cocksedge\'s <a  href="https://www.paulcocksedgestudio.com/shop/p/changetherecord" target="_blank" rel="noopener noreferrer">Change the Record</a> to improve its sound quality',
 
         slideshows: [
             {
@@ -347,7 +347,7 @@ page_data = [
         pageID: "WeddingPendants",
         title: "Wedding Pendants",
         description:
-            "A cousin of mine was getting married, so I decided to make him and his partner a pair of pendants that slot together",
+            "A cousin of mine was getting married, so I decided to make him and his partner a pair of pendants that slot together.",
 
         slideshows: [
             {
@@ -367,7 +367,7 @@ page_data = [
         pageID: "GCSEDTNEA",
         title: "GCSE DT NEA",
         description:
-            'This is the coursework element from my DT GCSE. Below are the highligts, but click <a href="content/GCSEDTNEA/DTNEAportfolio.pdf" target="_blank" rel="noopener noreferrer">here</a> for the full Project.',
+            'This is the coursework element from my DT GCSE. The theme was "playing games" so I designed a combat grid for D&D. Below are the highligts, but click <a href="content/GCSEDTNEA/DTNEAportfolio.pdf" target="_blank" rel="noopener noreferrer">here</a> for the full report.',
 
         slideshows: [
             {
@@ -397,7 +397,7 @@ page_data = [
     { //EPAnniversaryGift
         pageID: "EPAnniversaryGift",
         title: "1-Year Anniversary Gift",
-        description: "Two family members were having a one year anniversary party so I decided to make them a gift based around paper because that is the traditional material for a one year anniversary.",
+        description: "Two family members were having a one year wedding anniversary party so I decided to make them a gift based around paper because that is the traditional material for a one year anniversary.",
     
         slideshows: [
             {
@@ -439,7 +439,7 @@ page_data = [
     { //IndiaExchangeGift
         pageID: "IndiaExchangeGift",
         title: "India Partnership Gift",
-        description: "My school has a partnership with the Ramjas International School in india. As part of this partnership they do an exchange program and I went on the twenty year anniversary of their partnership. So me and the head of the DT department collaborated to make a gift for them.",
+        description: "My school has a partnership with the Ramjas International School in india. As part of this partnership they do an exchange program and I went on the twenty year anniversary of their partnership. So me and the head of the DT department (who was also going) collaborated to make a gift for them.",
     
         slideshows: [
             {
@@ -481,7 +481,7 @@ page_data = [
     { //ModelClock
         pageID: "ModelClock",
         title: "Cardboard Model Clock",
-        description: "This was a model made as part of my A-level Product Design Course.",
+        description: "As part of my A-level Product Design Course we did a unit on drawing and modelling. This was the model I made as the final piece for that.",
     
         slideshows: [
             {
@@ -502,7 +502,7 @@ page_data = [
     { //InventorPractice
         pageID: "InventorPractice",
         title: "Inventor Practice",
-        description: "These are a random set of items that I've modelled in Inventor either for fun or as parts of projects that I never finished.",
+        description: "These are a random set of items that I've modelled in Inventor either as practice or as parts of projects that I didn't finish.",
     
         slideshows: [
             {
@@ -522,7 +522,7 @@ page_data = [
     { //WireTree
         pageID: "WireTree",
         title: "Copper Wire Tree",
-        description: "I was experimenting with copper wire and ended up creating this.",
+        description: "I was experimenting with copper wire during a transision week for A-levels, and ended up creating this.",
     
         slideshows: [
             {
