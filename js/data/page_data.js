@@ -588,15 +588,30 @@ page_data = [
         slideshows: [
             {
                 showTitle: "Context",
-                images: ["Bunch.jpg","Bin.jpg","Line.jpg","TheTeam.jpg"],
+                images: [
+                    "Bunch.jpg",
+                    "Bin.jpg",
+                    "Line.jpg",
+                    "TheTeam.jpg"
+                ],
             },
             {
                 showTitle: "Developing",
-                images: ["TestRig.jpg","Matrix.jpg","Video.jpg","Graph.jpg","CornerDrawing.jpg"],
+                images: [
+                    "TestRig.jpg",
+                    "Matrix.jpg",
+                    "Video.jpg",
+                    "Graph.jpg",
+                    "CornerDrawing.jpg"
+                ],
             },
             {
                 showTitle: "Final Prototype",
-                images: ["Side.jpg","MessPrototype.jpg","PrototypeSignal.jpg"],
+                images: [
+                    "Side.jpg",
+                    "MessPrototype.jpg",
+                    "PrototypeSignal.jpg"
+                ],
             },
         ],
 
