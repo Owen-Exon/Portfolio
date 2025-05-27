@@ -618,6 +618,46 @@ page_data = [
         cardImage: "PrototypeSq.jpg",
         date: "November 2024 - April 2025",
     },
+    
+    { // AMPLIFY
+        pageID: "amplify",
+        title: "Amplify",
+        description: 'As part of A-level product design, we were given a project to design a bluetooth speaker. We had an electronics kit that contained a battery, PCB and 2 speakers, and we had to design an enclosure to contain them and to improve the sound quality. I decided to design a fantasy/medieval themed speaker that would work well with TTRPGs. Click <a href="content/amplify/OwenExonSpeakerProject.pdf" target="_blank" rel="noopener noreferrer">here</a> for my project report.',
+
+        slideshows: [
+            {
+                showTitle: "Designing and Planning",
+                images: [
+                    "TowerDraw.jpg",
+                    "Card.jpg",
+                    "CardTL.jpg",
+                    "TL.jpg",
+                    "BOM.jpg",
+                    "Durations.jpg",
+                    "Masses.jpg",
+                    "FixingBed.jpg",
+                    "Single.jpg",
+                    "Double.jpg"
+                ],
+            },
+            {
+                showTitle: "Finished Speakers",
+                images: [
+                    "BothFromBase.jpg",
+                    "FromTop.jpg",
+                    "BothCose2.jpg",
+                    "SingleTopV.jpg",
+                    "Inside.jpg",
+                    "SingleFromBase.jpg",
+                    "BoxInterior.jpg",
+                    "BoxExterior.jpg"
+                ],
+            },
+        ],
+
+        cardImage: "CardImage.jpg",
+        date: "Febuary - May 2025",
+    }
 ];
 
 // Woodturning?
