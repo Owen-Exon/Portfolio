@@ -96,7 +96,7 @@ page_data = [
         ],
 
         cardImage: "zschoolLogo.jpg",
-        date: "July - Septempber 2023",
+        date: "July - September 2023",
     },
 
     { //hammers
@@ -367,7 +367,7 @@ page_data = [
         pageID: "GCSEDTNEA",
         title: "GCSE DT NEA",
         description:
-            'This is the coursework element from my DT GCSE. The theme was "playing games" so I designed a combat grid for D&D. Below are the highligts, but click <a href="content/GCSEDTNEA/DTNEAportfolio.pdf" target="_blank" rel="noopener noreferrer">here</a> for the full report.',
+            'This is the coursework element from my DT GCSE. The theme was "playing games" so I designed a combat grid for D&D. Below are the highlights, but click <a href="content/GCSEDTNEA/DTNEAportfolio.pdf" target="_blank" rel="noopener noreferrer">here</a> for the full report.',
 
         slideshows: [
             {
@@ -456,10 +456,10 @@ page_data = [
         date: "October 2024",
     },
     
-    { //BOSCHWorkExperiance
-        pageID: "BOSCHWorkExperiance",
+    { //BOSCHWorkExperience
+        pageID: "BOSCHWorkExperience",
         title: "Work Experience at Worcester BOSCH",
-        description: 'Below are the highlights of the things I worked on during my two weeks work experience at worcester BOSCH.<br>Click <a href="content/BOSCHWorkExperiance/OEWorkExperiancePresentation.pdf" target="_blank" rel="noopener noreferrer">Here</a> for the presentation I gave to the team about what I\'d worked on.<br>And <a href="content/BOSCHWorkExperiance/C4000MAPLRackAssembly.pdf" target="_blank" rel="noopener noreferrer">Here</a> for drawings of the Racking.',
+        description: 'Below are the highlights of the things I worked on during my two weeks work experience at worcester BOSCH.<br>Click <a href="content/BOSCHWorkExperience/OEWorkExperiencePresentation.pdf" target="_blank" rel="noopener noreferrer">Here</a> for the presentation I gave to the team about what I\'d worked on.<br>And <a href="content/BOSCHWorkExperience/C4000MAPLRackAssembly.pdf" target="_blank" rel="noopener noreferrer">Here</a> for drawings of the Racking.',
     
         slideshows: [
             {
@@ -522,7 +522,7 @@ page_data = [
     { //WireTree
         pageID: "WireTree",
         title: "Copper Wire Tree",
-        description: "I was experimenting with copper wire during a transision week for A-levels, and ended up creating this.",
+        description: "I was experimenting with copper wire during a transition week for A-levels, and ended up creating this.",
     
         slideshows: [
             {
@@ -537,10 +537,10 @@ page_data = [
         date: "June 2024",
     },
 
-    { //HowellsWorkExperiance
-        pageID: "HowellsWorkExperiance",
-        title: "Work Experiance at Howells",
-        description: 'Below are the renders of the project I worked on during my week long work experience at Howells architects.<br>Click <a href="content/HowellsWorkExperiance/Presentation.pdf" target="_blank" rel="noopener noreferrer">Here</a> for the presentation I gave to a handfull of people in the office about how I\'d fulfilled the brief they\'d given me',
+    { //HowellsWorkExperience
+        pageID: "HowellsWorkExperience",
+        title: "Work Experience at Howells",
+        description: 'Below are the renders of the project I worked on during my week long work experience at Howells architects.<br>Click <a href="content/HowellsWorkExperience/Presentation.pdf" target="_blank" rel="noopener noreferrer">Here</a> for the presentation I gave to a handful of people in the office about how I\'d fulfilled the brief they\'d given me',
         slideshows: [
             {
                 images: [
@@ -583,7 +583,7 @@ page_data = [
     { // IndustrialCadetsGold
         pageID: "IndustrialCadetsGold",
         title: "Industrial Cadets Gold",
-        description: 'During year 12, I participated in Industrial Cadets Gold with two of my friends. We had a mentor from worcester BOSCH (who I had met through previous work experiance) and the aim of our project was to try to find a solution to the tangled clips used to hold components together on one of their assembly lines.<br>Below are links to the specification we were given, as well as our report, the slides from our presentation and the feedback from our assesor.<br><a href="content/IndustrialCadetsGold/IndustrialCadetsTechnicalSpecification.pdf" target="_blank" rel="noopener noreferrer">Specification</a><br><a href="content/IndustrialCadetsGold/FinalReport.pdf" target="_blank" rel="noopener noreferrer">Report</a><br><a href="content/IndustrialCadetsGold/ProjectPresentation.pdf" target="_blank" rel="noopener noreferrer">Presentation</a><br><a href="content/IndustrialCadetsGold/DroitwichSpaHighSchoolFeedback.pdf" target="_blank" rel="noopener noreferrer">Feedback</a>',
+        description: 'During year 12, I participated in Industrial Cadets Gold with two of my friends. We had a mentor from worcester BOSCH (who I had met through previous work Experience) and the aim of our project was to try to find a solution to the tangled clips used to hold components together on one of their assembly lines.<br>Below are links to the specification we were given, as well as our report, the slides from our presentation and the feedback from our assessor.<br><a href="content/IndustrialCadetsGold/IndustrialCadetsTechnicalSpecification.pdf" target="_blank" rel="noopener noreferrer">Specification</a><br><a href="content/IndustrialCadetsGold/FinalReport.pdf" target="_blank" rel="noopener noreferrer">Report</a><br><a href="content/IndustrialCadetsGold/ProjectPresentation.pdf" target="_blank" rel="noopener noreferrer">Presentation</a><br><a href="content/IndustrialCadetsGold/DroitwichSpaHighSchoolFeedback.pdf" target="_blank" rel="noopener noreferrer">Feedback</a>',
 
         slideshows: [
             {
