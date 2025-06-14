@@ -12,7 +12,7 @@ page_data.forEach(pageDATA => {
     });
 });
 
-let fileText = "# Ignore Non Used Images\ncontent/**\n"
+let fileText = "# Ignore Non Used Images\ncontent/*\ncontent/*/*\ncontent/*/*/*\n"
 pageImages.forEach(image => {
     fileText = fileText + `${image}\n`
 });
