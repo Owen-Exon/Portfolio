@@ -9,7 +9,10 @@
 toFTP.js
 
 # Ignore Non Used Images
-.content/**
+.content/*
+.content/*/*
+.content/*/*/*
+.content/*/*/*/*
 !.content/AmbiCoaster/IMG_1041.jpg
 !.content/AmbiCoaster/IMG_1043.jpg
 !.content/AmbiCoaster/IMG_1044.jpg
