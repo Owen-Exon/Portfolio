@@ -7,24 +7,24 @@ page_data.forEach(pageDATA => {
     slideshows = pageDATA.slideshows
     slideshows.forEach(slideshow => {
        slideshow.images.forEach(image => {
-            pageImages.push(`!.content/${currentID}/${image}`)
+            pageImages.push(`.content/${currentID}/${image}`)
        }); 
     });
 });
 
-let fileText = "# Ignore Non Used Images\n.content"
+let fileText = "# Include Used Images\n"
 pageImages.forEach(image => {
     fileText = fileText + `${image}\n`
 });
 
 var fs = require('fs')
-fs.readFile(".git-ftp-ignore", 'utf8', function (err,data) {
+fs.readFile(".git-ftp-include", 'utf8', function (err,data) {
   if (err) {
     return console.log(err);
   }
-  var index = data.indexOf("# Ignore Non Used Images")
+  var index = data.indexOf("# Include Used Images")
   var result = data.substring(0,index) + fileText
-  fs.writeFile(".git-ftp-ignore", result, 'utf8', function (err) {
+  fs.writeFile(".git-ftp-include", result, 'utf8', function (err) {
      if (err) return console.log(err);
   });
 });
