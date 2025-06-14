@@ -7,12 +7,12 @@ page_data.forEach(pageDATA => {
     slideshows = pageDATA.slideshows
     slideshows.forEach(slideshow => {
        slideshow.images.forEach(image => {
-            pageImages.push(`!content/${currentID}/${image}`)
+            pageImages.push(`!.content/${currentID}/${image}`)
        }); 
     });
 });
 
-let fileText = "# Ignore Non Used Images\ncontent/*\n"
+let fileText = "# Ignore Non Used Images\n.content/*\n"
 pageImages.forEach(image => {
     fileText = fileText + `${image}\n`
 });
