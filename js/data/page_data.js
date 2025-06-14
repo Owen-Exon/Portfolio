@@ -659,8 +659,7 @@ page_data = [
         date: "Febuary - May 2025",
     }
 ];
-
-// Woodturning?
+module.exports = {page_data};
 
 template = {
     pageID: "",

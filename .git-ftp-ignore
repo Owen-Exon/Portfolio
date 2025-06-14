@@ -6,3 +6,7 @@
 */.gitkeep
 .git-ftp-include
 .gitlab-ci.yml
+toFTP.js
+
+# Ignore Non Used Images
+content/*
