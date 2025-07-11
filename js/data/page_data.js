@@ -459,7 +459,7 @@ page_data = [
     { //BOSCHWorkExperience
         pageID: "BOSCHWorkExperience",
         title: "Work Experience at Worcester BOSCH",
-        description: 'Below are the highlights of the things I worked on during my two weeks work experience at worcester BOSCH.<br>Click <a href="content/BOSCHWorkExperience/OEWorkExperiencePresentation.pdf" target="_blank" rel="noopener noreferrer">Here</a> for the presentation I gave to the team about what I\'d worked on.<br>And <a href="content/BOSCHWorkExperience/C4000MAPLRackAssembly.pdf" target="_blank" rel="noopener noreferrer">Here</a> for drawings of the Racking.',
+        description: 'Below are the highlights of the things I worked on during my two weeks work experience at worcester BOSCH.<br>Click <a href="content/BOSCHWorkExperience/OEWorkExperiancePresentation.pdf" target="_blank" rel="noopener noreferrer">Here</a> for the presentation I gave to the team about what I\'d worked on.<br>And <a href="content/BOSCHWorkExperience/C4000MAPLRackAssembly.pdf" target="_blank" rel="noopener noreferrer">Here</a> for drawings of the Racking.',
     
         slideshows: [
             {
