@@ -103,7 +103,7 @@ async function handleOnUp(e, i) {
         document.body.dataset.WhatSlide = -1
         images.style.cursor = ""
     }
-    }
+}
     
 function handleOnMove(e, i) {
     if (i!= -1) {
