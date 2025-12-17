@@ -36,6 +36,13 @@ page = { //Portfolio
     }]
 }
 
+extensions = {
+    "mp4":"video",
+    "jpg":"img"
+}
+
+let sliding = false
+
 function loadSlideslow(slideshow, i, pageID) {
     
     let newSlides = document.createElement("div")
@@ -54,11 +61,24 @@ function loadSlideslow(slideshow, i, pageID) {
     n=0
     slideshow.images.forEach(image => {
         n+=1
-        let slideImage = document.createElement("img")
-        slideImage.src = `content/${pageID}/${image}`
+        imageExtension = image.split(".").at(-1)
+        imageType = extensions[imageExtension]
+        
+        let slideImage = document.createElement(imageType)
+        if (imageType == "video") {
+            let videoSource = document.createElement("source")
+            videoSource.src = `content/${pageID}/${image}`
+            videoSource.type = `video/${imageExtension}`
+            slideImage.controls = true
+            slideImage.appendChild(videoSource)
+            slideImage.addEventListener("click", (e) => {
+                e.preventDefault()
+            })
+        } else {
+            slideImage.src = `content/${pageID}/${image}`
+        }
         slideImage.classList.add("SlideImage", "S"+ i)
         slideImage.draggable = false
-        
         images.appendChild(slideImage)
     })
     images.dataset.mouseDownAt = 0
@@ -96,7 +116,7 @@ function handleOnDown(e, i) {
 }
 
 
-async function handleOnUp(e, i) {
+function handleOnUp(e, i) {
     if (i!= -1) {
         let images = document.getElementsByClassName("slideshowImages S"+i)[0]
         images.dataset.mouseDownAt = "0"; 
@@ -111,10 +131,14 @@ function handleOnMove(e, i) {
         let downAt = parseFloat(images.dataset.mouseDownAt)
         if (downAt != 0) {
             let offset = (downAt-e.clientX)*2
+            if (offset > 10) {
+                sliding = true
+            } else {
+                sliding = false
+            }
             let newpos = parseFloat(images.dataset.lastpos) - offset
             newpos = Math.max(Math.min(newpos,window.innerWidth/2),-images.offsetWidth + window.innerWidth/2)
             
-            // images.style.transform = `translateX(${newpos}px)`
             images.animate({transform: `translateX(${newpos}px)`}, { duration: 1500, fill: "forwards" });
             images.dataset.mouseDownAt = e.clientX
             images.dataset.lastpos = newpos

@@ -657,9 +657,26 @@ page_data = [
 
         cardImage: "CardImage.jpg",
         date: "Febuary - May 2025",
+    },
+
+    { // DigitalGesturalInstrument
+        pageID: "DigitalGesturalInstrument",
+        title: "Gestural Recognition Instrument",
+        description: 'During my A-level product design NEA, I experimented with using <a href="https://github.com/kinivi/hand-gesture-recognition-mediapipe" target="_blank" rel="noopener noreferrer">gestural recognition python library</a> to generate midi signals. It uses the position of the hand determine what note gets played this information then gets send as a midi signal to a virtual instrument. The videos below are set up in two different ways, in the first the vertical axis controls pitch, in the second the horizontal does instead.',
+
+        slideshows: [
+            {
+                images: [
+                    "synthGestural.mp4",
+                    "organGestural.mp4"
+                ],
+            }
+        ],
+
+        cardImage: "card.jpg",
+        date: "Oct 2025",
     }
 ];
-module.exports = {page_data};
 
 template = {
     pageID: "",

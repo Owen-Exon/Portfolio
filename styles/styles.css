@@ -21,9 +21,6 @@ body {
   margin: 0;
   background-color: var(--backCol);
   color : var(--textCol);
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */
   text-align: -webkit-center;
   position: relative;
 }
@@ -332,6 +329,7 @@ br.double {
 
 .SlideImage {
   height: 100%;
+  width: auto;
   outline: solid 1px #fff6;
   border-radius: 2vw;
   position: relative;
