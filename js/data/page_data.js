@@ -675,6 +675,21 @@ page_data = [
 
         cardImage: "card.jpg",
         date: "Oct 2025",
+    },
+
+    { // Python Simulation
+        pageID: "PyPhysicsSim",
+        title: "Simple Physics Simulation",
+        description: "This is a simple physics simulation written in python. It simulates simple inelastic collisions with friction as well as allowing magnetic/gravitational fields to be created. It also has a simple air resistance system and the rate that time passes can be adjusted.",
+
+        slideshows: [
+            {
+                images: ["0.mp4","1.mp4","2.mp4","3.mp4","4.mp4"],
+            },
+        ],
+
+        cardImage: "Card.jpg",
+        date: "",
     }
 ];
 
