@@ -727,7 +727,22 @@ page_data = [
 
         cardImage: "card.jpg",
         date: "Oct - Dec 2025",
-    }
+    },
+
+    { // diceTray
+        pageID: "diceTray",
+        title: "Dice Tray",
+        description: "This is a dice tray I made for use while running TTRPGs. It's made from painted laser cut MDF and covered in felt so the dice can roll on something more soft.",
+
+        slideshows: [
+            {
+                images: ["Front.jpg","Back.jpg","Dice.jpg"],
+            },
+        ],
+
+        cardImage: "Card.jpg",
+        date: "",
+    },
 ];
 
 template = {
