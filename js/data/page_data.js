@@ -44,61 +44,6 @@ page_data = [
         date: "October - December 2022",
     },
 
-    { //deptLogo
-        pageID: "deptLogo",
-        title: "Department Logo's",
-        description:
-            `To practice my graphic design and as a creative exercise, I decided to make a logo for each of the subjects at my School. Any images used for reference were under a creative commons licence.<br>
-            Original School Logo: <a  href="content/deptLogo/zschoolLogo.jpg" target="_blank" rel="noopener noreferrer">School logo</a>`,
-
-        slideshows: [
-            {
-                images: [
-                    "Art.jpg",
-                    "Biology.jpg",
-                    "Business.jpg",
-                    "Chemistry.jpg",
-                    "ChildDevelopment.jpg",
-                    "ComputerScience.jpg",
-                    "CreativeCraft.jpg",
-                    "Criminology.jpg",
-                    "Dance.jpg",
-                    "DigitalMedia.jpg",
-                    "Drama.jpg",
-                    "DT.jpg",
-                    "Economics.jpg",
-                    "Engineering.jpg",
-                    "English.jpg",
-                    "FilmStudies.jpg",
-                    "FoodAndNutrition.jpg",
-                    "French.jpg",
-                    "Geography.jpg",
-                    "German.jpg",
-                    "GovernmentAndPolitics.jpg",
-                    "HealthAndSocialCare.jpg",
-                    "History.jpg",
-                    "Maths.jpg",
-                    "Music.jpg",
-                    "PhilosophyAndEthics.jpg",
-                    "Phychology.jpg",
-                    "PhysicalEducation.jpg",
-                    "Physics.jpg",
-                    "ProductDesign.jpg",
-                    "ReligiousStudies.jpg",
-                    "Science.jpg",
-                    "Sociology.jpg",
-                    "Spanish.jpg",
-                    "SportStudies.jpg",
-                    "Textiles.jpg",
-                    "TheatreStudies.jpg",
-                ],
-            },
-        ],
-
-        cardImage: "zschoolLogo.jpg",
-        date: "July - September 2023",
-    },
-
     { //hammers
         
         pageID: "Hammers",
@@ -132,17 +77,17 @@ page_data = [
 
     { //makersmarks
         pageID: "makersMarks",
-        title: "Makers Marks",
+        title: "Logos and Makers Marks",
         
-        description: "These are some Makers Marks I have made for and/or with some of my friends.",
+        description: "These are some Logos and Makers Marks I that I use.",
 
         slideshows: [
             {
                 images: [
                     "Owen.jpg",
-                    "Noah.jpg",
-                    "Jack.jpg",
-                    "Combined.jpg"
+                    "Logo.jpg",
+                    "EXONOXElogo.jpg",
+                    "EXONOXE.jpg"
                 ],
             },
         ],
@@ -928,5 +873,59 @@ template = {
 
     cardImage: "IMG_1665.jpg",
     date: "May 2023",
+},
+{ //deptLogo
+    pageID: "deptLogo",
+    title: "Department Logo's",
+    description:
+        `To practice my graphic design and as a creative exercise, I decided to make a logo for each of the subjects at my School. Any images used for reference were under a creative commons licence.<br>
+        Original School Logo: <a  href="content/deptLogo/zschoolLogo.jpg" target="_blank" rel="noopener noreferrer">School logo</a>`,
+
+    slideshows: [
+        {
+            images: [
+                "Art.jpg",
+                "Biology.jpg",
+                "Business.jpg",
+                "Chemistry.jpg",
+                "ChildDevelopment.jpg",
+                "ComputerScience.jpg",
+                "CreativeCraft.jpg",
+                "Criminology.jpg",
+                "Dance.jpg",
+                "DigitalMedia.jpg",
+                "Drama.jpg",
+                "DT.jpg",
+                "Economics.jpg",
+                "Engineering.jpg",
+                "English.jpg",
+                "FilmStudies.jpg",
+                "FoodAndNutrition.jpg",
+                "French.jpg",
+                "Geography.jpg",
+                "German.jpg",
+                "GovernmentAndPolitics.jpg",
+                "HealthAndSocialCare.jpg",
+                "History.jpg",
+                "Maths.jpg",
+                "Music.jpg",
+                "PhilosophyAndEthics.jpg",
+                "Phychology.jpg",
+                "PhysicalEducation.jpg",
+                "Physics.jpg",
+                "ProductDesign.jpg",
+                "ReligiousStudies.jpg",
+                "Science.jpg",
+                "Sociology.jpg",
+                "Spanish.jpg",
+                "SportStudies.jpg",
+                "Textiles.jpg",
+                "TheatreStudies.jpg",
+            ],
+        },
+    ],
+
+    cardImage: "zschoolLogo.jpg",
+    date: "July - September 2023",
 },
 */
