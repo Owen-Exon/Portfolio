@@ -56,10 +56,10 @@ h1 {
 p, a {
   font-size: 1.1em;
 }
-
+/* 
 a:not(.afterexeption):after {
-  content: "↗";
-}
+  content: "";
+} */
 
 /*================================================== Greeting & Banner ==================================================*/
 .greeting-container {

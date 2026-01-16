@@ -122,7 +122,7 @@ page_data = [
         pageID: "rose",
         title: "Metal Wire Rose",
         description:
-            'This was submission for a competition to make a rose as the school was putting on a Beauty and the beast musical. This is one of my favourite things I\'ve made.<br>Click <a href="content/rose/Comp.jpg" target="_blank" rel="noopener noreferrer">here</a> for a high resolution version.',
+            'This was a submission for a competition to make a rose as the school was putting on a Beauty and the beast musical. This is one of my favourite things I\'ve made.<br>Click <a href="content/rose/Comp.jpg" target="_blank" rel="noopener noreferrer">here</a> for a high resolution version.',
 
         slideshows: [
             {
@@ -220,7 +220,7 @@ page_data = [
 
         slideshows: [
             {
-                showTitle: "Initial Renders",
+                showTitle: "Concept Renders",
                 images: [
                     "Renders/Wood.jpg",
                     "Renders/GoldA.jpg",
@@ -601,13 +601,13 @@ page_data = [
         ],
 
         cardImage: "CardImage.jpg",
-        date: "Febuary - May 2025",
+        date: "February - May 2025",
     },
 
     { // DigitalGesturalInstrument
         pageID: "DigitalGesturalInstrument",
         title: "Gestural Recognition Instrument",
-        description: 'During my A-level product design NEA, I experimented with using <a href="https://github.com/kinivi/hand-gesture-recognition-mediapipe" target="_blank" rel="noopener noreferrer">gestural recognition python library</a> to generate midi signals. It uses the position of the hand determine what note gets played this information then gets send as a midi signal to a virtual instrument. The videos below are set up in two different ways, in the first the vertical axis controls pitch, in the second the horizontal does instead.',
+        description: 'During my A-level product design NEA, I experimented with using <a href="https://github.com/kinivi/hand-gesture-recognition-mediapipe" target="_blank" rel="noopener noreferrer">gestural recognition python library</a> to generate midi signals. It uses the position of the hand determine what note gets played, this information then gets send as a midi signal to a virtual instrument. The videos below are set up in two different ways, in the first the vertical axis controls pitch, in the second the horizontal does instead.',
 
         slideshows: [
             {
